@@ -378,6 +378,7 @@ class ApplyPulidFlux:
             det_model='retinaface_resnet50',
             save_ext='png',
             device=device,
+            model_rootpath='models/facexlib/weights'
         )
 
         face_helper.face_parse = None
